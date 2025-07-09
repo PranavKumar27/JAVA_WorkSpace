@@ -1,3 +1,4 @@
+
 import java.lang.*;
 
 public class ConvertToBin {
@@ -13,5 +14,12 @@ public class ConvertToBin {
         System.out.println("y="+Integer.toBinaryString(y));
         System.out.println("y="+Integer.toOctalString(y));
         System.out.println("y="+Integer.toHexString(y));
+
+        char c = 0x095;
+        System.out.println(c);
+
+        float f ='a';
+        float g = 2;
+        float m = 23.45;
     }
 }
