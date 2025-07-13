@@ -1,4 +1,4 @@
-
+import java.util.Scanner;
 
 public class PreIncrement {
     public static void main(String args[])
@@ -34,7 +34,13 @@ public class PreIncrement {
         mb++;
         // mb = mb+1;  <--- Error 
         print(mb);
-
+        
+        byte t = -10;
+        int q = t>>>1;
+        Scanner sc = new Scanner(System.in);
+        String s = Integer.toBinaryString(q);
+        System.out.println("Bin = " +s);
+        print(q);
     }
     static void print(int x)
     {
