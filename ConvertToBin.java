@@ -20,6 +20,6 @@ public class ConvertToBin {
 
         float f ='a';
         float g = 2;
-        float m = 23.45;
+        //float m = 23.45;
     }
 }
