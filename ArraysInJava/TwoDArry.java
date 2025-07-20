@@ -36,5 +36,42 @@ public class TwoDArry {
         C[2] = new int[4];
 
 
+        for(int x[]:C)
+        {
+            for(int y:x)
+            {
+               System.out.printf("%d ",y);
+            }
+            System.out.printf("\n");
+        }
+
+        int[] E,F[];
+        E = new int[5];
+        F = new int[5][5];
+
+        int G[][] = {{1,2,3},{4,5,6},{7,8,9}};
+
+        for(int x[]:G)
+        {
+            for(int y:x)
+            {
+                System.out.printf("%d ",y);
+            }
+            System.out.printf("\n");
+        }
+
+
+        String arr[] = {"java","c++","c","python","golang","php","javascript","ada","html","aws","css"};
+
+        java.util.Arrays.sort(arr);
+
+        for(String x:arr)
+        {
+            System.out.print(x+" , ");
+        }
+
+        System.out.println();
+
+
     }
 }
