@@ -35,8 +35,10 @@ public class IPRegexValidation {
             Formated_IP = Formated_IP + Arr[Arr.length-1];
         System.out.println("IP Entered ="+Formated_IP);
 
-        String Regex = "0*(25[0-5]|2[0-4][0-9]|1?[0-9]{1,2}|[0-9])";
+        String Regex = "([0-9]{1,2}|(0|1)[0-9]{2}|2[0-4][0-9]|25[0-5])";
         String completeRegex = "^" + Regex + "[\\.]" + Regex + "[\\.]" + Regex + "[\\.]" + Regex + "$"  ;
         System.out.println(Formated_IP.matches(completeRegex));
+
+
     }
 }
