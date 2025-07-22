@@ -19,7 +19,6 @@ class Circle
 
 public class GeometricArea
 {
-    
     public static void main(String ...args)
     {
         System.out.println("Enter Radius : ");
