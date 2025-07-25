@@ -26,6 +26,9 @@ class Test
             }
         };
         obj.display();
+
+        //new My().display();
+        
     }
 }
 

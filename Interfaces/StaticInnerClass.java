@@ -10,6 +10,7 @@ class Outer
         void display()
         {
             System.out.println("Value of x = "+x);
+            // Non static Member can't be accessed from static context
             // System.out.println("Value of y = "+y);
         }
     }
