@@ -1,4 +1,4 @@
-package Static;
+package MyStatic;
 
 /*
  * Interface are not final
