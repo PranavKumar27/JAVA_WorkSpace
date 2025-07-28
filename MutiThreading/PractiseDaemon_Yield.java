@@ -31,7 +31,7 @@ public class PractiseDaemon_Yield {
             System.out.println(i+" Main Thread");
             i++;
             // Give more time to Mythread since it is startving
-            //Thread.yield();
+            Thread.yield();
         }
     }
 }
