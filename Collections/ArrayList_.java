@@ -99,6 +99,7 @@ public class ArrayList_ {
 
         System.out.println("\nUsing for each Lambda Technique 2 --> ");
         Arr1.forEach(n->PrintGreaterThan60(n));
+
     }
 
     static void PrintGreaterThan60(int n)
